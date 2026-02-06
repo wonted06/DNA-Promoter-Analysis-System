@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project is a **C++ gene analysis application** that models biological gene promoters and predicts their **response to glucose** based on known DNA motifs.  
 The system integrates a custom-designed `Gene` class into a provided prototype application, processes a large promoter dataset, and outputs the **top 20 up-regulated genes** ranked by calculated propensity.
@@ -16,7 +16,7 @@ The project emphasises **robust class design, operator overloading, unit testing
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - Object-oriented `Gene` class with full encapsulation
 - Operator overloading for comparison and stream I/O
@@ -28,7 +28,7 @@ The project emphasises **robust class design, operator overloading, unit testing
 
 ---
 
-## 🧠 Core Functionality
+## Core Functionality
 
 The system performs the following steps:
 
@@ -42,7 +42,7 @@ Upper-case characters in DNA sequences are ignored, ensuring robust and consiste
 
 ---
 
-## 🧬 Gene Class Design
+## Gene Class Design
 
 ### Attributes
 - `id` (`std::string`) – unique gene identifier  
@@ -61,7 +61,7 @@ Upper-case characters in DNA sequences are ignored, ensuring robust and consiste
 
 ---
 
-## 🧪 Unit Testing
+## Unit Testing
 
 Unit testing is implemented in **`GeneTest.cpp`**:
 
@@ -74,7 +74,7 @@ This ensures the `Gene` class behaves correctly both in isolation and when integ
 
 ---
 
-## 🔧 System Integration & Debugging
+## System Integration & Debugging
 
 The `Gene` class is fully integrated with a provided prototype application:
 
@@ -87,7 +87,7 @@ The final system preserves the original program structure while improving correc
 
 ---
 
-## ⚡ Performance Optimisation
+## Performance Optimisation
 
 The prototype was refactored to improve efficiency by:
 
@@ -98,7 +98,7 @@ The prototype was refactored to improve efficiency by:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **C++17**
 - **STL** (`vector`, `string`, algorithms, streams)
@@ -107,4 +107,83 @@ The prototype was refactored to improve efficiency by:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+├── CMakeLists.txt        # Build configuration
+├── main.cpp              # Refactored prototype application
+├── Gene.h                # Gene class declaration
+├── Gene.cpp              # Gene class implementation
+├── GeneTest.cpp          # Unit testing harness
+├── arabidopsis.csv       # Input gene database
+├── top20.csv             # Output (top 20 genes)
+└── README.md             # Project documentation
+
+---
+
+## Building the Project
+
+This project uses **CMake** and targets **C++17**.
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+
+This produces the executable:
+```bash
+100432626_Gene_CW
+```
+
+⸻
+
+## Running the Program
+```bash
+./100432626_Gene_CW
+```
+
+Input files must be located in the current working directory.
+
+⸻
+
+ PASS Compatibility
+	•	No keyboard input required
+	•	Single main() function
+	•	Relative file paths only
+	•	Compatible with GCC/G++ (C++17)
+
+⸻
+
+📈 Skills Demonstrated
+	•	Modern C++ (C++17)
+	•	Object-oriented design and encapsulation
+	•	Operator overloading
+	•	Unit testing and validation
+	•	Debugging and refactoring
+	•	Performance optimisation
+	•	Scientific data processing
+
+⸻
+
+🎓 Academic Context
+
+This project was completed as part of CMP-5015A Programming 2 coursework.
+While academic in origin, it reflects real-world C++ development practices used in systems programming and scientific computing.
+
+⸻
+
+📜 License
+
+This project is shared for educational and portfolio purposes only.
+Please do not submit this work (or derivatives) as your own for academic assessment.
+
+⸻
+
+🙌 Author
+
+Kurt Canillas
+Computer Science Undergraduate
+
+
+
+
