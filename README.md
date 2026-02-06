@@ -146,7 +146,7 @@ Input files must be located in the current working directory.
 
 ⸻
 
- PASS Compatibility
+## PASS Compatibility
 	•	No keyboard input required
 	•	Single main() function
 	•	Relative file paths only
@@ -154,7 +154,7 @@ Input files must be located in the current working directory.
 
 ⸻
 
-📈 Skills Demonstrated
+## Skills Demonstrated
 	•	Modern C++ (C++17)
 	•	Object-oriented design and encapsulation
 	•	Operator overloading
@@ -165,25 +165,21 @@ Input files must be located in the current working directory.
 
 ⸻
 
-🎓 Academic Context
+## Academic Context
 
 This project was completed as part of CMP-5015A Programming 2 coursework.
 While academic in origin, it reflects real-world C++ development practices used in systems programming and scientific computing.
 
 ⸻
 
-📜 License
+## License
 
 This project is shared for educational and portfolio purposes only.
 Please do not submit this work (or derivatives) as your own for academic assessment.
 
 ⸻
 
-🙌 Author
+## Author
 
 Kurt Canillas
 Computer Science Undergraduate
-
-
-
-
