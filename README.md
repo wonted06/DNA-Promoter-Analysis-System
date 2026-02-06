@@ -108,14 +108,16 @@ The prototype was refactored to improve efficiency by:
 ---
 
 ## Project Structure
-├── CMakeLists.txt        # Build configuration
-├── main.cpp              # Refactored prototype application
-├── Gene.h                # Gene class declaration
-├── Gene.cpp              # Gene class implementation
-├── GeneTest.cpp          # Unit testing harness
-├── arabidopsis.csv       # Input gene database
-├── top20.csv             # Output (top 20 genes)
-└── README.md             # Project documentation
+| Path / File | Description |
+|------------|------------|
+| `CMakeLists.txt` | CMake build configuration |
+| `main.cpp` | Refactored prototype application |
+| `Gene.h` | Gene class declaration |
+| `Gene.cpp` | Gene class implementation |
+| `GeneTest.cpp` | Unit testing harness |
+| `arabidopsis.csv` | Input gene promoter database |
+| `top20.csv` | Output file (top 20 genes) |
+| `README.md` | Project documentation |
 
 ---
 
